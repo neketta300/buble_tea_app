@@ -1,10 +1,22 @@
 import 'package:buble_tea_app/components/my_drawer_tile.dart';
 import 'package:buble_tea_app/pages/about_app_page.dart';
+import 'package:buble_tea_app/services/auth/auth_service.dart';
+import 'package:buble_tea_app/services/auth/login_or_register.dart';
 import 'package:flutter/material.dart';
 
-class MyDrawer extends StatelessWidget {
+class MyDrawer extends StatefulWidget {
   const MyDrawer({super.key});
+
+  @override
+  State<MyDrawer> createState() => _MyDrawerState();
+}
+
+class _MyDrawerState extends State<MyDrawer> {
   void logout() {
+    final _authService = AuthService();
+    _authService.signOut();
+    // Navigator.pushReplacement(context,
+    //     MaterialPageRoute(builder: (context) => const LoginOrRegister()));
     // final _authService = AuthService();
     // _authService.signOut();
   }
