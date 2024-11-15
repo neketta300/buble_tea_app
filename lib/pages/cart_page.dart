@@ -34,7 +34,7 @@ class _CartPageState extends State<CartPage> {
             children: [
               // heading
               const Padding(
-                padding: EdgeInsets.only(right: 25.0, left: 25.0, top: 25.0),
+                padding: EdgeInsets.only(right: 20.0, left: 20.0, top: 25.0),
                 child: Text(
                   "Your Cart",
                   style: TextStyle(
@@ -55,8 +55,8 @@ class _CartPageState extends State<CartPage> {
                     Drink drink = value.cart[index];
                     return Padding(
                       padding: const EdgeInsets.only(
-                        right: 25.0,
-                        left: 25.0,
+                        right: 20.0,
+                        left: 20.0,
                         bottom: 5.0,
                       ),
                       child: DrinkTile(

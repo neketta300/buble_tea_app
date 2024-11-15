@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/flutterProject/buble_tea_app/android/app/.cxx/Debug/1p6f1m30/arm64-v8a",
+  "command": "C:\\Users\\neket\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/neket/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_check_logpas_EXPORTS -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -fPIC -o CMakeFiles\\native_check_logpas.dir\\C_\\flutterProject\\buble_tea_app\\lib\\ffi\\native_check_logpas.cpp.o -c C:\\flutterProject\\buble_tea_app\\lib\\ffi\\native_check_logpas.cpp",
+  "file": "C:\\flutterProject\\buble_tea_app\\lib\\ffi\\native_check_logpas.cpp"
+}
+]

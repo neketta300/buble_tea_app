@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650504520664",
+    "project_id": "bubbleteaapp-44e18",
+    "storage_bucket": "bubbleteaapp-44e18.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650504520664:android:ddaa071ab10fe7eef968ad",
+        "android_client_info": {
+          "package_name": "com.example.buble_tea_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG3KgKwTmmzt7MmPWaOA7obUcetY0j4xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -13,7 +13,7 @@ class _MyBottomNavBarState extends State<MyBottomNavBar> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 25.0),
+      padding: const EdgeInsets.only(bottom: 25.0, top: 25),
       child: GNav(
         tabBorderRadius: 16,
         onTabChange: (value) => widget.onTabChange!(value),
